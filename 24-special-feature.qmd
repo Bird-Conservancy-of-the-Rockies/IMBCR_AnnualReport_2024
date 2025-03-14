@@ -1,0 +1,78 @@
+---
+format:
+  html:
+    number-sections: FALSE
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Special Feature - Conservation & Management {#sec-feature}
+
+## Using IMBCR Data to Address Management and Conservation Questions
+
+Long-term, rigorous monitoring provides valuable information on
+population status, allowing managers and biologists to focus limited
+resources on species of greatest concern. Monitoring populations at
+local and regional scales also facilitates a mechanistic understanding
+of how local and regional processes may interact and affect populations
+(Hewitt et al. 2007, Pavlacky et al. 2017). Here we provide a few
+examples demonstrating the use of IMBCR data to address specific
+management or conservation questions using either the annual monitoring
+effort we conduct each year or targeted monitoring in an overlay
+project.
+
+### Landscape-scale effects of a grassland restoration program
+
+David Pavlacky and coauthors published a study examining the effect of
+grassland habitat loss on grassland bird diversity across the western
+Great Plains, and if and how lands enrolled in the Conservation Reserve
+Program (CRP) offset this loss. They used the “background” IMBCR data
+from surveys conducted each year to evaluate hypotheses for the effects
+of habitat loss and restoration on grassland birds. They found that
+occupancy and species richness of grassland specialists declined with a
+loss of grassland habitat, but increased with greater CRP in the
+surrounding landscape. In addition, although species richness of
+grassland specialists was similar between intact grasslands and
+landscapes containing CRP, turnover in species composition between the
+two landscapes suggested that landscapes with CRP lacked complete
+representation of grassland specialists. Lastly, the predicted effect of
+adding 1 km^2^ of CRP to the landscape increased the richness of
+grassland specialists the most in northern latitudes, like northeastern
+Montana. [Access the full text publication via ResearchGate
+here](https://www.researchgate.net/publication/358229954_Landscape-scale_conservation_mitigates_the_biodiversity_loss_of_grassland_birds).
+
+### Sagebrush birds experience declining population trends with heavy natural gas energy development
+
+In a targeted overlay project, Bird Conservancy monitored birds over a
+10-year period in the Atlantic Rim Natural Gas Field (south-central
+Wyoming) to determine energy development impacts on sagebrush birds of
+concern. We surveyed birds in a high and low-development stratum within
+the project area, and also on surrounding land as part of the
+“background” IMBCR effort, which served as a reference sample. We then
+estimated population trends in occupancy and species richness relevant
+to a priori management triggers set by the BLM. Twenty-four species had
+negative trends in the high-development stratum, including Sage
+Thrasher, which had a large enough decline to meet a management trigger.
+Overall species richness also showed a negative trend in the
+high-development stratum relative to the background and low-development
+strata, and well pad density was the leading causal factor for observed
+negative impacts. [Read the full publication
+here](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4479).
+
+### Predicting the effects of pinyon-juniper removal on birds associated with pinyon-juniper and sagebrush habitats
+
+Nick Van Lanen and co-authors used “background” IMBCR data across
+several western Bird Conservation Regions (BCR) to model population
+trends and density-habitat relationships for sagebrush-associated,
+pinyon-juniper (PJ)-associated, and generalist songbird species. They
+found eight decreasing and 14 increasing regional populations, and in
+particular, no species were found to be declining within the highest
+elevation-portion of the study area (the Northern Rockies BCR). Their
+models also indicated that PJ removal efforts would benefit Sage
+Thrasher, Brewer’s Sparrow, and Green-tailed Towhee populations, but
+harm PJ-associated species, like Bewick's Wren and Gray Flycatcher.
+Their results, including predicted density maps, can help prioritize
+species and regions for conservation action and inform management for
+species with disparate habitat needs. [Read the open-access article
+here](https://onlinelibrary.wiley.com/doi/10.1002/ece3.10648).

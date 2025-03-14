@@ -1,0 +1,75 @@
+---
+title: "Rocky Mountain Avian Data Center Tips"
+---
+
+## Overview {.unnumbered}
+
+All results, including parameter estimates, distribution maps, raw count data and effort, are available online. To view interactive maps showing survey and detection locations, as well as species counts, and density, population and occupancy results using the IMBCR study design please visit the [Rocky Mountain Avian Data Center](https://bird-conservancy.shinyapps.io/rmadc/). Click on the "Explore the Data" tab to view IMBCR results.  
+
+Please note that the RMADC 2.0 is brand new and still in progress. 
+
+### Selecting filters {.unnumbered}
+
+The Rocky Mountain Avian Data Center has been designed to provide information for specific questions and therefore works best when users select multiple filters for a query.  
+
+For example, to view IMBCR results for BRSP in CO you would apply the following filters: Study Design = IMBCR, Species = Brewer's Sparrow and State = CO) or to view multiple outputs at once (e.g., to view data and results for Brewer's Sparrow and Vesper Sparrow at the same time select Species = Brewer's Sparrow and Species = Vesper Sparrow). Below is an explanation of the different filter types you may choose from.  
+
+::: {.callout-tip}
+## Tip
+
+To help navigate the filters, it's helpful to use this report to determine the **Stratum** or **Superstratum** relevant to you. Click on the relevant agency or geographic region on the sidebar on the left side of this page, then use the "On this page" menu to choose a management unit. The relevant Stratum or Superstratum will be listed in a callout block like this one.
+:::
+
+
+#### Geographic filters
+
+**Bird Conservation Region**: Selecting this filter will provide you with results for all strata and superstrata within a particular Bird Conservation Region - see @fig-bcr-regions for a map.  
+
+**State**: Selecting this filter will supply the user with data and results for all strata and superstrata within a particular state.  
+
+**Land Management Agency**: This filter will allow users to select data and results for All Other Lands, Colorado State Land Board, The Nature Conservancy (TNC), US Bureau of Indian Affairs (BIA), US Bureau of Land Management (BLM), US Department of Defense (DOD), US Fish and Wildlife Service (USFWS), US Forest Service (USFS), or National Park Service (NPS).   
+
+**Stratum**: This filter allows users to select data and results for a geographic unit of analysis.  
+
+**Superstratum**: This filter allows users to select data and results for multiple strata that were analyzed jointly (e.g., the entire Bridger-Teton National Forest which was broken up into 2 strata, or the entire state of Colorado which was broken up into 30 strata).  
+
+#### Other filters {.unnumbered}
+
+**Baseline (IMBCR) or Overlay (GRTS)**: "Baseline" surveys are standard IMBCR surveys which contribute to statewide and regional estimates. These surveys are drawn from a spatially-balanced random sample of a given geographic extent (e.g. a National Forest or BLM Field Office). These surveys are designed to monitor broadly across many species and habitat types.  
+
+"Overlay" surveys are projects designed to answer a specific question, or monitor a specific subset of species or habitats. These surveys may be stratified by elevation, soil type, management or project boundaries, disturbance, etc. Some examples include projects designed to assess bird response to varying levels of impacts such as human recreation on heavily-used trails, oil & gas infrastructure, and grassland reseeding.
+
+**Species**: This filter allows users to select data and results for a particular species. 
+
+**Year**: This filter will allow users to select all data and results for a particular year.  
+
+
+## Viewing Maps and Counts (Map Tab) {.unnumbered}
+
+***What is displayed***
+
+The map displays all survey locations corresponding to your set of filters. If you have filtered by species, black circles represent survey locations where that species was not detected and pink circles represent survey locations where that species was detected. 
+
+By default, the zoom capability of the maps page is restricted to protect the privacy of private landowners. Funding and/or implementation partners wishing for more precise location information should email [Jennifer Timmer](mailto: jennifer.timmer@birdconservancy.org).
+
+The table below displays a count of the number of individuals detected for each individual survey.
+
+***Adding map layers***
+
+Selecting a Bird Conservation Region or a Stratum will display the boundary for that geographic extent.
+
+## Viewing Occupancy/Density Results (Occupancy and Density Tabs) {.unnumbered}
+
+***Viewing Tables***
+
+You may view occupancy or density results table and a chart for all appropriate strata (based on the set of filters) for which we have results, by clicking on the tabs labeled "Occupancy" or "Density".
+
+The occupancy tables display species, stratum, year, Psi (proportion of sampling units expected to be occupied), number of sampling units the species was detected on, the percent coefficient of variation (% CV). The density tables will display species, stratum, year, number of birds estimated per km² (D), total number of individuals estimated within the stratum (N), percent coefficient of variation (% CV), and the number of independent detections used in analyses (n). 
+
+***Viewing the Charts***
+
+When viewing the occupancy and density charts, the point estimate of Psi or D is indicated with a circle, and the error bars represent the 95% credible interval. 
+
+***Saving results of your query***
+
+You may easily save the results of your query by clicking the Download button below each table.
