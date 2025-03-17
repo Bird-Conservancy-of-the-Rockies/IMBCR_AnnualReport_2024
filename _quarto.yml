@@ -1,0 +1,66 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Integrated Monitoring in Bird Conservation Regions"
+  date: "3/20/2024"
+  sidebar:
+    title: "2023 IMBCR Field Season Report"
+    logo: figures/BCR-logo.png
+    style: floating
+    
+  chapters:
+    - index.qmd
+    - 2-about-us.qmd
+    - 3-exec-summary.qmd
+    - 4-tables-figures.qmd
+    - 5-intro.qmd
+    - 6-methods.qmd
+    - part: "Results"
+      chapters: 
+        - 7-results.qmd
+        - 8-usfs.qmd
+        - 9-blm.qmd
+        - 10-dod.qmd
+        - 11-nps.qmd
+        - 12-tribal.qmd
+        - 13-bcr.qmd
+        - 14-co.qmd
+        - 15-ks.qmd
+        - 16-mt.qmd
+        - 17-ne.qmd
+        - 18-nd.qmd
+        - 19-ok.qmd
+        - 20-sd.qmd
+        - 21-ut.qmd
+        - 22-wy.qmd
+    - part: "Discussion"
+      chapters:
+        - 23-applications.qmd
+        - 24-special-feature.qmd
+        - 25-conclusion.qmd
+    - 26-references.qmd
+  appendices: 
+    - 27-rmadc.qmd
+    - 28-history.qmd
+    - 29-protocol-changes.qmd
+    - 30-analysis.qmd
+   # - 31-priority-species.qmd
+        
+
+# bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc-title: "On this page"
+    number-sections: true
+    number-depth: 2
+    fontsize: 1em
+    prefer-html: true
+
+editor: source
+
+filters:
+  - newpagelink.lua
