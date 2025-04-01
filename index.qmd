@@ -14,18 +14,18 @@ editor:
 
 <br> <br>
 
-![Golden Eagle by Rachael Kaiser](./figures/GOEA-RachaelKaiser.jpg)\
-Golden Eagle by Rachael Kaiser. <br> <br> <br> *PDF version coming soon,
-stay tuned!*
+![Evening Grosbeak by Larry Lamsa](./figures/EVGR-LarryLamsa.jpg)\
+Evening Grosbeak by Larry Lamsa. <br> <br> <br> *PDF version coming soon,
+stay tuned!*  
 
 <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 <br> <br> <br>
 
 **Suggested Citation**\
-Reese, J., McLaren, M. F., Timmer, J. M., Smith, M., Walker, T., White,
-C. M., Latif, Q., Pavlacky Jr., D. C., Sparks, R. A. 2024. Integrated
-Monitoring in Bird Conservation Regions (IMBCR): 2023 Field Season
+Timmer, J. M., Reese, J., McLaren, M. F., Smith, M., Walker, T., White,
+C. M., Latif, Q., Pavlacky Jr., D. C., Sparks, R. A. 2025. Integrated
+Monitoring in Bird Conservation Regions (IMBCR): 2024 Field Season
 Report. Bird Conservancy of the Rockies. Brighton, Colorado, USA.
 
 <br> <br>
@@ -36,15 +36,14 @@ matthew.mclaren\@birdconservancy.org\
 970-482-1707
 :::
 
-## 2023 Field Season Report {.unnumbered}
+## 2024 Field Season Report {.unnumbered}
 
-Welcome to the 2023 IMBCR Annual Report! We hope you find it to be
+Welcome to the 2024 IMBCR Annual Report! We hope you find it to be
 user-friendly and informative. This report will help you access results
 from IMBCR avian point count surveys, including species observations and
 population estimates such as density, occupancy, and population trend.
 This website contains all the same information we've presented in past
-years, but if you prefer a PDF version of the report, you can download a
-copy via the link to the right.
+years' reports, but if you prefer a PDF version of the report, we can provide one.
 
 #### **Navigating this document**
 
@@ -59,15 +58,15 @@ label to access the navigation links.
 > ##### **Survey locations, species observations, density, occupancy, and population trend**
 >
 > Visit the brand-new [Rocky Mountain Avian Data Center
-> 2.0](https://bird-conservancy.shinyapps.io/rmadc/) (RMADC)! Here
+> 2.0](https://apps.birdconservancy.org/rmadc/) (RMADC)! Here
 > you'll find interactive maps illustrating survey and detection
 > locations, and tables displaying species counts and population
 > estimates (i.e., density, occupancy, and population trend).
 >
 > Use the "Explore the Data" tab on the RMADC to filter data by
-> geographic region, year, or species.
+> geographic region, year, and species.
 >
-> To help navigate the filters, it's helpful to use this report to
+> To navigate the filters, it's helpful to use this report to
 > determine the "Stratum" or "Superstratum" relevant to you. Click on
 > the relevant agency or geographic region on the sidebar on the left
 > side of this page, then use the "On this page" menu to choose a
@@ -91,10 +90,7 @@ report.
 ::: {.callout-note appearance="minimal"}
 ## Special Feature - Conservation & Management
 
-In @sec-feature we provide a few examples demonstrating the use of IMBCR
-data to address specific management or conservation questions using
-either the annual monitoring effort we conduct each year or targeted
-monitoring in an overlay project.
+In @sec-feature we highlight two examples of IMBCR trends for managers and decision-makers to monitor both priority species of concern and common species in decline by accessing data via our new Rocky Mountain Avian Data Center.
 :::
 
 **Bird Conservancy of the Rockies**\
