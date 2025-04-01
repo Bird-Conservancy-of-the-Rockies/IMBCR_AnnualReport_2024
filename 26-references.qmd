@@ -67,9 +67,7 @@ MacKenzie, D. I., Nichols, J. D., Lachman, G. B., Droege, S., Royle, J. A., & La
 
 MacKenzie, D. I., Nichols, J. D., Royle, J. A., Pollock, K. H., Bailey, L. L., & Hines, J. E. (2006). Occupancy estimation and modeling: inferring patterns and dynamics of species occurrence. Burlington, Massachusetts, USA: Elsevier.
 
-Manley, P. N., Schlesinger, M. D., Roth, J. K., & Van Horne, B. (2005). A field-based evaluation of a presence-absence protocol for monitoring ecoregional-scale biodiversity. Journal of Wildlife Management, 69(3), 950–966.
-
-Marsh, D. M., & Trenham, P. C. (2008). Current trends in plant and animal population monitoring. Conservation Biology, 22(3), 647–655.
+Manley, P. N., Schlesinger, M. D., Roth, J. K., & Van Horne, B. (2005). A field-based evaluation of a presence-absence protocol for monitoring ecoregional-scale biodiversity. Journal of Wildlife Management, 69(3), 950–966.  
 
 Metzger, M. J., Brus, D. J., Bunce, R. G. H., Carey, P. D., Gonçalves, J., Honrado, J. P., … Zomer, R. (2013). Environmental stratifications as the basis for national, European and global ecological monitoring. Ecological Indicators, 33, 26–35. https://doi.org/10.1016/j.ecolind.2012.11.009
 
@@ -119,9 +117,9 @@ Royle, J. A., Dawson, D. K., & Bates, S. (2004). Modeling abundance effects in d
 
 Ruggiero, L. F., Hayward, G. D., & Squires, J. R. (1994). Viability analysis in biological evaluations: Concepts of population vability analysis, biological population, and ecological scale. Conservation Biology, 8(2), 364–372.
 
-Ruth, J. M., Petit, D. R., Sauer, J. R., Samuel, M. D., Johnson, F. A., Fornwall, M. D., Bennett, J. P. (2003). Science for avian conservation: Priorities for the new millennium. Auk, 120(1), 204–211.
+Ruth, J. M., Petit, D. R., Sauer, J. R., Samuel, M. D., Johnson, F. A., Fornwall, M. D., Bennett, J. P. (2003). Science for avian conservation: Priorities for the new millennium. Auk, 120(1), 204–211.  
 
-Sauer, J. R., & Knutson, M. G. (2008). Objectives and metrics for wildlife monitoring. Journal of Wildlife Management, 72(8), 1663–1664.
+Sauer, J. R., & Knutson, M. G. (2008). Objectives and metrics for wildlife monitoring. Journal of Wildlife Management, 72(8), 1663–1664.  
 
 Schneider, R., Fritz, M., Jorgensen, J., Schainost, S., Simpson, R., Steinauer, G., & Rothe-Groleau, C.. (2018). Revision of the Tier 1 and 2 Lists of Species of Greatest Conservation Need: A Supplement to the Nebraska Natural Legacy Project State Wildlife Action Plan. The Nebraska Game and Parks Commission, Lincoln, NE.
 
@@ -155,7 +153,9 @@ de Valpine, P., D. Turek, C.J. Paciorek, C. Anderson-Bergman, D. Temple Lang, an
 
 de Valpine P, Paciorek C, Turek D, Michaud N, Anderson-Bergman C, Obermeyer F, Wehrhahn Cortes C, Rodrìguez A, Temple Lang D, Paganin S (2023). *NIMBLE User Manual*. doi:10.5281/zenodo.1211190 <https://doi.org/10.5281/zenodo.1211190>, R package manual version 1.0.1, <https://r-nimble.org>.
 
-Watanabe, S. (2010). Asymptotic equivalence of Bayes cross validation and widely applicable information criterion in singular learning theory. Journal of Machine Learning Research, 2010(11), 3571-3594.
+Watanabe, S. (2010). Asymptotic equivalence of Bayes cross validation and widely applicable information criterion in singular learning theory. Journal of Machine Learning Research, 2010(11), 3571-3594.  
+
+Wheelwright, N. T. and J. D. Rising. 2020. Savannah Sparrow (Passerculus sandwichensis), version 1.0. In Birds of the World (A. F. Poole, Editor). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.savspa.01  
 
 Wiens, J. A., Rotenberry, J. T., & Van Horne, B. (1987). Habitat Occupancy Patterns of North American Shrubsteppe Birds: The Effects of Spatial Scale. Oikos, 48(2), 132. https://doi.org/10.2307/3565849
 
