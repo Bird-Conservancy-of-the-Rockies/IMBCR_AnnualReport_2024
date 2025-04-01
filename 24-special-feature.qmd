@@ -9,70 +9,15 @@ editor:
 
 # Special Feature - Conservation & Management {#sec-feature}
 
-## Using IMBCR Data to Address Management and Conservation Questions
+## Using IMBCR Trends to Assess the Status of Species across Scales
 
-Long-term, rigorous monitoring provides valuable information on
-population status, allowing managers and biologists to focus limited
-resources on species of greatest concern. Monitoring populations at
-local and regional scales also facilitates a mechanistic understanding
-of how local and regional processes may interact and affect populations
-(Hewitt et al. 2007, Pavlacky et al. 2017). Here we provide a few
-examples demonstrating the use of IMBCR data to address specific
-management or conservation questions using either the annual monitoring
-effort we conduct each year or targeted monitoring in an overlay
-project.
 
-### Landscape-scale effects of a grassland restoration program
+Bird populations in North America have declined precipitously over the last 50 years (Rosenberg et al. 2019). Monitoring the status of both species of concern and formerly common but declining species is thus an important objective for management agencies. However, while national trends can help inform broad priorities and sound the alarm on range-wide declines, management typically occurs locally and regionally.  
 
-David Pavlacky and coauthors published a study examining the effect of
-grassland habitat loss on grassland bird diversity across the western
-Great Plains, and if and how lands enrolled in the Conservation Reserve
-Program (CRP) offset this loss. They used the “background” IMBCR data
-from surveys conducted each year to evaluate hypotheses for the effects
-of habitat loss and restoration on grassland birds. They found that
-occupancy and species richness of grassland specialists declined with a
-loss of grassland habitat, but increased with greater CRP in the
-surrounding landscape. In addition, although species richness of
-grassland specialists was similar between intact grasslands and
-landscapes containing CRP, turnover in species composition between the
-two landscapes suggested that landscapes with CRP lacked complete
-representation of grassland specialists. Lastly, the predicted effect of
-adding 1 km^2^ of CRP to the landscape increased the richness of
-grassland specialists the most in northern latitudes, like northeastern
-Montana. [Access the full text publication via ResearchGate
-here](https://www.researchgate.net/publication/358229954_Landscape-scale_conservation_mitigates_the_biodiversity_loss_of_grassland_birds).
+The IMBCR program has now collected avian occurrence and density data throughout the western United States for up to 17 years in some regions. These data enable the program to provide critical trend information on bird populations at multiple scales, from individual management units to state or region-wide. Below, we highlight two examples of these data for managers and decision-makers to monitor both existing priority species and common species in decline by accessing data via our recently updated Rocky Mountain Avian Data Center (RMADC).  
 
-### Sagebrush birds experience declining population trends with heavy natural gas energy development
+The Savannah Sparrow is not currently a priority species for conservation throughout its wide distribution (Wheelwright and Rising 2020). However, IMBCR trends show a decline across several populations within the Great Plains and Rocky Mountains, from larger regions, like statewide across Colorado to specific management units, such as Yellowstone National Park. Given widespread declines at local and larger scales, efforts to prioritize the Savannah Sparrow may be warranted, at least in the western portion of the species’ range.  
 
-In a targeted overlay project, Bird Conservancy monitored birds over a
-10-year period in the Atlantic Rim Natural Gas Field (south-central
-Wyoming) to determine energy development impacts on sagebrush birds of
-concern. We surveyed birds in a high and low-development stratum within
-the project area, and also on surrounding land as part of the
-“background” IMBCR effort, which served as a reference sample. We then
-estimated population trends in occupancy and species richness relevant
-to a priori management triggers set by the BLM. Twenty-four species had
-negative trends in the high-development stratum, including Sage
-Thrasher, which had a large enough decline to meet a management trigger.
-Overall species richness also showed a negative trend in the
-high-development stratum relative to the background and low-development
-strata, and well pad density was the leading causal factor for observed
-negative impacts. [Read the full publication
-here](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4479).
+The Evening Grosbeak is a forest specialist and a Road to Recovery tipping point species that has experienced long term population declines (https://r2rbirds.org/tipping-point-species/). However, IMBCR data show variation in population trends throughout the Rockies. For example, populations in some USFS units, like Kootenai National Forest, have experienced declines, while populations in other units, like Helena National Forest, have increased since 2009. Monitoring populations at both local and regional scales can facilitate a mechanistic understanding of how local and regional processes may interact and affect populations, such as the Evening Grosbeak (Hewitt et al. 2007, Pavlacky et al. 2017).   
 
-### Predicting the effects of pinyon-juniper removal on birds associated with pinyon-juniper and sagebrush habitats
-
-Nick Van Lanen and co-authors used “background” IMBCR data across
-several western Bird Conservation Regions (BCR) to model population
-trends and density-habitat relationships for sagebrush-associated,
-pinyon-juniper (PJ)-associated, and generalist songbird species. They
-found eight decreasing and 14 increasing regional populations, and in
-particular, no species were found to be declining within the highest
-elevation-portion of the study area (the Northern Rockies BCR). Their
-models also indicated that PJ removal efforts would benefit Sage
-Thrasher, Brewer’s Sparrow, and Green-tailed Towhee populations, but
-harm PJ-associated species, like Bewick's Wren and Gray Flycatcher.
-Their results, including predicted density maps, can help prioritize
-species and regions for conservation action and inform management for
-species with disparate habitat needs. [Read the open-access article
-here](https://onlinelibrary.wiley.com/doi/10.1002/ece3.10648).
+Visit the Rocky Mountain Avian Data Center (https://apps.birdconservancy.org/rmadc/) to view trends for species of interest in your management area (click on “Explore the Data” to select filters of interest). IMBCR estimates are available for numerous focal areas or “strata”, where partners have invested in monitoring, such as the Bighorn National Forest in Wyoming.  The “Superstratum” filter is helpful to find trends for broader regions or statewide (e.g., the BCR18-portion of Colorado) that provide context for strata. Filter trends by f-value >0.9 to view only robust estimates; these estimates are highlighted in yellow and estimates with a more stringent threshold of f >0.975 are shown in gold. Increasing trends are highlighted in blue, while decreasing trends are shown in red. Please note, we now provide two trend metrics: trend based on the annual density estimates and trend based on occupancy estimates. Although density and occupancy have different units, trend on either is interpreted the same way: as the percent population change per year during the monitoring period. Visit the “Tutorial” page for additional information on using the site and interpreting the estimates.
