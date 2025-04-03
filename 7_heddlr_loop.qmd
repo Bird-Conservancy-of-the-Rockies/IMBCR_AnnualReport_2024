@@ -1,0 +1,75 @@
+---
+title: "1_heddlr"
+format: html
+---
+
+```{r}
+
+library(heddlr)
+library(tidyverse)
+
+# This script gets two updates from year to year:
+# 1. year
+# 2. chapters$name
+
+# update year
+year <- 2024
+
+setup <- import_pattern("5_heddlr_setup.qmd")
+pattern <- import_pattern("6_heddlr_pattern.qmd")
+
+headings <- read.csv("data/", year, "_annualreportdata-headings.csv", na.strings = c("", "NA")) %>%
+  select(group1, group2, group3, heading1, heading2, heading3, stratum, name)
+
+headings.clean <- headings %>%
+  select(-stratum) %>%
+  filter(if_any(c(heading1, heading2, heading3), ~ complete.cases(.)))
+
+nested <- headings %>%
+  select(-c(heading1, heading2, heading3)) %>%
+  group_by(group1, group2, group3) %>%
+  nest() 
+
+nested.headings <- nested %>%
+  left_join(headings.clean, by = c("group1", "group2", "group3"))
+
+nested.final <- nested.headings %>%
+  mutate(
+    component.body = map(data, heddle, pattern, "STRATUM_NAME" = stratum),
+    component.body = map_chr(component.body, make_template),
+    heading1 = if_else(!is.na(heading1), paste("#", heading1, "\n"), paste("")),
+    heading2 = if_else(!is.na(heading2), paste("##", heading2, "\n"), paste("")),
+    heading3 = if_else(!is.na(heading3), paste("###", heading3, "\n "), paste("")),
+    component.with.heading = make_template(heading1, "\n", heading2, "\n", heading3, "\n", component.body)
+  )
+  
+
+chapters <- headings %>%
+  select(heading1) %>%
+  distinct() %>%
+  na.omit()
+
+
+# these will be the names of my individual .qmd files for the book. Update to the correct numbers and names for the current year!
+chapters$name <- c("8-usfs", "9-blm", "10-dod", "11-nps", "12-tribal", 
+                   "14-co", "15-ks", "16-mt", "17-ne", "18-nd",
+                   "19-ok", "20-sd", "21-ut", "22-wy", "13-bcr")
+
+# agencies & broader regions are under heading 1
+for (i in 1:nrow(chapters)) {
+  
+  stratum.filter <- nested.final %>%
+    filter(group1 == chapters[i,1])
+  
+  stratum.template <- make_template(stratum.filter$component.with.heading)
+  
+  report_template <- make_template(setup, stratum.template)
+  export_template(report_template, paste(chapters$name[i], ".qmd", sep = ""))
+                  
+}
+
+```
+
+
+
+
