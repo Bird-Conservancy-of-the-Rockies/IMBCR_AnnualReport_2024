@@ -71,23 +71,23 @@ where $\hat{\mu_s}=Mean(s)$ and $\hat{SE_s}=SD(s)/\sqrt{n}$, in which $s$ repres
 
 We model the sum of observed counts (of independent clusters of individuals) across all points surveyed within a grid cell ($n_{ijt}$) as
 
-$$n_{ijt} \sim Binomial\biggl(N_{ijt},p_{[a],tl}×p_{[p],t}×\biggl(\frac{K_{[s],ijt}}{K}\biggr)\biggr),$$ {#eq-abundance_n}
+$$n_{ijt} \sim Binomial\biggl(N_{ijt},p_{[a],tl}×p_{[p]}×\biggl(\frac{K_{[s],ijt}}{K}\biggr)\biggr),$$ {#eq-abundance_n}
 
-where $p_{[a],tl}$ is a year- and BCR-specific availability component of detection probability, $p_{[p],t}$ is a year-specific perceptibility component of detection probability, and $K_{[s],ijt}⁄K$ is survey effort. Detection components can be expressed as the sum of probability vectors:
+where $p_{[a],tl}$ is a year- and BCR-specific availability component of detection probability, $p_{[p]}$ is the perceptibility component of detection probability, and $K_{[s],ijt}⁄K$ is survey effort. Detection components can be expressed as the sum of probability vectors:
 
 $$p_{[a],tl}=∑_{r=1}^{R} π_{[a],tlr}$$ {#eq-abundance_p_a}
 
 <center>and</center>
 
-$$p_{[p],tl}=∑_{d=1}^{d_{max}} π_{[p],tld},$$ {#eq-abundance_p_p}
+$$p_{[p]}=∑_{d=1}^{d_{max}} π_{[p],d},$$ {#eq-abundance_p_p}
 
-where $π_{[a],tlr}$ and $π_{[p],tld}$ are detection probabilities within time removal and distance bins (hereafter bin probabilities), respectively. We model the distribution of counted individuals among time removal and distance bins, respectively, as
+where $π_{[a],tlr}$ and $π_{[p],d}$ are detection probabilities within time removal and distance bins (hereafter bin probabilities), respectively. We model the distribution of counted individuals among time removal and distance bins, respectively, as
 
 $$\mathbf{y_{[a],ijt}} \sim Multinomial \biggl(n_{ijt},\mathbf{π_{[a],tl}^{[c]}} \biggr)$$ {#eq-abundance_pi_a}
 
 <center>and</center>
 
-$$\mathbf{y_{[p],ijt}} \sim Multinomial \biggl(n_{ijt},\mathbf{π_{[p],tl}^{[c]}} \biggr),$$ {#eq-abundance_pi_p}
+$$\mathbf{y_{[p],ijt}} \sim Multinomial \biggl(n_{ijt},\mathbf{π_{[p]}^{[c]}} \biggr),$$ {#eq-abundance_pi_p}
 
 where $\mathbf{y_{[a],ijt}}$ and $\mathbf{y_{[p],ijt}}$ are vectors of counts within time removal and distance bins. Bin probabilities for availability assume constant availability across the survey period,
 
@@ -95,45 +95,35 @@ $$π_{[a],trl}=p_{[ar],tl} (1-p_{[ar],tl})^{r-1},$$ {#eq-abundance_pi_a_cell}
 
 where $p_{[ar],tl}$ is the availability for a single 2-min time removal bin. Bin probabilities for perceptibility account for area of bins with increasing distance,
 
-$$π_{[p],td}=\frac{p_{[pd],td}A_d}{∑_{d=1}^{d_{[max]}}A_d},~\mathrm{and}$$ {#eq-abundance_pi_p_cell}
+$$π_{[p],d}=\frac{p_{[pd],d}A_d}{∑_{d=1}^{d_{[max]}}A_d},~\mathrm{and}$$ {#eq-abundance_pi_p_cell}
 
-where $p_{[pd],td}$ is the perceptibility within distance bin $d$ in year $t$, and $A_d$ is the area of distance bin $d$. Multinomial cell probabilites for modeling $\mathbf{y_{[a],ijt}}$ and $\mathbf{y_{[p],ijt}}$ represent bin probabilites scaled to sum to 1:
+where $p_{[pd],d}$ is the perceptibility within distance bin $d$ and $A_d$ is the area of distance bin $d$. Multinomial cell probabilites for modeling $\mathbf{y_{[a],ijt}}$ and $\mathbf{y_{[p],ijt}}$ represent bin probabilites scaled to sum to 1:
 
 $$π_{[a],trl}^{[c]}=π_{[a],trl}⁄p_{[a],tl},$$ {#eq-abundance_pi_a_cell_c}
 
 <center>and</center>
 
-$$π_{[p],td}^{[c]}=π_{[p],td}⁄p_{[p],t}.$$ {#eq-abundance_pi_p_cell_c}
+$$π_{[p],d}^{[c]}=π_{[p],d}⁄p_{[p]}.$$ {#eq-abundance_pi_p_cell_c}
 
-Surveys in 2008-2009 were 5 min instead of 6 min in length, so for these years, we calculate the availability for a 1-min interval, $p_{[a1],tl}=1-\biggl((1-p_{[ar],tl})^3\biggr)^{1/6}$, and then calculate the unscaled cell probability for the third (1 min) period as $π_{[a],(t≤2)(r=3)l}=p_{[a1],tl}×(1-p_{[ar],tl})^{r-1}$. We model $p_{[pd],td}$ using one of four possible perceptibility models: 1) a half-normal constant model, 2) a hazard rate constant model, 3) a half-normal year model, and 4) a hazard rate year model. For half-normal functions, we calculated $p_{[pd],td}$ for each distance class as:
+Surveys in 2008-2009 were 5 min instead of 6 min in length, so for these years, we calculate the availability for a 1-min interval, $p_{[a1],tl}=1-\biggl((1-p_{[ar],tl})^3\biggr)^{1/6}$, and then calculate the unscaled cell probability for the third (1 min) period as $π_{[a],(t≤2)(r=3)l}=p_{[a1],tl}×(1-p_{[ar],tl})^{r-1}$. We model $p_{[pd],td}$ using one of four possible perceptibility models: 1) a half-normal constant model, 2) a hazard rate constant model, 3) a half-normal year model, and 4) a hazard rate year model. For half-normal functions, we calculated $p_{[pd],d}$ for each distance class as:
 
-$$p_{[pd],td}=\frac{2\pi\int_{c=d_{[low]}}^{c=d_{[high]}}exp\biggl(-\biggl(\frac{c^2}{2\sigma_{t^2}}\biggr)\biggr)c~dc}{A_d},$$ {#eq-abundance_p_pd_HN}
+$$p_{[pd],d}=\frac{2\pi\int_{c=d_{[low]}}^{c=d_{[high]}}exp\biggl(-\biggl(\frac{c^2}{2\sigma^{2}}\biggr)\biggr)c~dc}{A_d},$$ {#eq-abundance_p_pd_HN}
 
-where $d_{[low]}$ and $d_{[high]}$ are the bounds for distance bin $d$ and $σ_t$ is the half-normal shape parameter. Because of the lack of an analytical solution to the integral of the hazard rate function, we calculated $p_{[pd],td}$ at the midpoint, $d_{[mid]}$, of each distance class:
+where $d_{[low]}$ and $d_{[high]}$ are the bounds for distance bin $d$, and $σ$ is the half-normal shape parameter. Because of the lack of an analytical solution to the integral of the hazard rate function, we calculated $p_{[pd],td}$ at the midpoint, $d_{[mid]}$, of each distance class:
 
-$$p_{[pd],td}=1-exp\biggl(-\biggl(\frac{d_{[mid]}}{h_t}\biggr)^b\biggr),$$ {#eq-abundance_p_pd_HZ}
+$$p_{[pd],td}=1-exp\biggl(-\biggl(\frac{d_{[mid]}}{h}\biggr)^b\biggr),$$ {#eq-abundance_p_pd_HZ}
 
-where $h_t$ and $b$ are estimated parameters for the hazard function. For perceptibility models (@eq-abundance_p_pd_HN and @eq-abundance_p_pd_HZ), we draw year-specific shape parameters from hyperdistributions:
-
-$$log(σ_t) \sim Normal(μ_{[σ]},SD_{[σ]}^2),$$ {#eq-abundance_HN_sigma}
-
-$$log(h_t) \sim Normal(μ_{[h]},SD_{[h]}^2).$$ {#eq-abundance_HZ_h}
-
-We allowed availability to vary by year and BCR:
+where $h$ and $b$ are estimated parameters for the hazard function. For perceptibility models (@eq-abundance_p_pd_HN and @eq-abundance_p_pd_HZ), shape parameters were modeled as constant across space and time. Previously, we had modeled perceptibility shape parameters as variable across years for species with sufficient data. For the sake of computational efficiency and considering distance sampling benefits from pooling robustness (Buckland et al. 2001, 2008), we simplified to constant-perceptibility models starting in 2024. We allowed availability to vary by year and BCR:
 
 $$logit(p_{[ar],tl}) \sim Normal(μ_{[p_{ar}]},SD_{[p_{ar}]}^2).$$ {#eq-abundance_p_ar}
 
-Priors for annual variation in detectability components are
-
-$$μ_{[σ]} \sim Normal(4.5,1.5),$$ {#eq-abundance_mu_sigma}
-
-$$μ_{[h]} \sim Normal(4.5,1.5),$$ {#eq-abundance_mu_h}
+Priors for annual variation in availability are
 
 $$μ_{[p_{ar}]} \sim Normal(0,1),$$ {#eq-abundance_mu_par}
 
 <center>and</center>
 
-$$SD_{[σ]},SD_{[h]},SD_{[p_{ar}]} \sim gamma(1,1).$$ {#eq-abundance_SD_sigma_h_par}
+$$SD_{[p_{ar}]} \sim gamma(1,1).$$ {#eq-abundance_SD_par}
 
 ### Occupancy model {#sec-occupancy}
 
@@ -173,7 +163,7 @@ and are scaled to sum to 1,
 
 $$π_{[R],trl}^{[c]}=π_{[R],trl}⁄p_{tl},$$ {#eq-occupancy_pi_R_c}
 
-where $p_{[R],tl}$ is species detectability for a single 2-min time removal bin. We model variability in species detectability here ($p_{[R],tl}$) in the same manner as the availability component of the abundance model ($p_{[ar]}$ in @eq-abundance_p_ar, @eq-abundance_mu_par, and @eq-abundance_SD_sigma_h_par), including the shorter 5-min survey period in 2008-2009 (see explanation following @eq-abundance_pi_a_cell_c).
+where $p_{[R],tl}$ is species detectability for a single 2-min time removal bin. We model variability in species detectability here ($p_{[R],tl}$) in the same manner as the availability component of the abundance model ($p_{[ar]}$ in @eq-abundance_p_ar, @eq-abundance_mu_par, and @eq-abundance_SD_par), including the shorter 5-min survey period in 2008-2009 (see explanation following @eq-abundance_pi_a_cell_c).
 
 ### Trend estimation
 
@@ -193,19 +183,11 @@ For occupancy, we truncated detections for most species at 125 m from survey poi
 
 ### Model selection
 
-For each species, we considered alternative structures for the observation component of abundance and occupancy models in order to balance model fit, complexity, and computational efficiency. Because accounting for heterogeneity in bird observability is critical for accurate population estimation, we aimed to fit maximally complex observation models supported by the data. Moreover, because corrections to count data generated from distance sampling are relatively robust to heterogeneity (see pooling robustness in Buckland et al. 2001:41-42), we prioritized allowing heterogeneity in availability over perceptibility for abundance models.
+For each species, we considered alternative structures for the observation component of abundance and occupancy models in order to balance model fit, complexity, and computational efficiency. Because accounting for heterogeneity in bird observability is critical for accurate population estimation, we aimed to fit maximally complex observation models supported by the data. Because corrections to count data generated from distance sampling are relatively robust to heterogeneity (see pooling robustness in Buckland et al. 2001:41-42), however, we prioritized allowing heterogeneity in availability over perceptibility for abundance models.
 
-For abundance models, we first considered two potential functions for describing the decline in perceptibility of birds with distance from the surveyor: a half-normal model and a hazard model. We preliminarily fitted detection-only versions of these models to the raw distance data (i.e., distances not indexed by sampling unit or year). We used the Watanabe-Akaike Information Criterion (WAIC; Watanabe 2010, Hooten and Hobbs 2015) to select the most parsimonious perceptibility functional form and then retained that function for each species for modeling distance-based perceptibility in the primary analysis. We first considered the maximally complex abundance model (hereafter global abundance model), which included annual variation in both perceptibility and availability, and variability in availability among Bird Conservation Regions (@eq-abundance_HN_sigma - @eq-abundance_p_ar). If the global abundance model did not converge after a specified number of attempts (for details on model fitting, convergence, and MCMC sampling criteria, see @sec-modelfitting below), we then considered a constant perceptibility abundance model, which replaced either @eq-abundance_HN_sigma and @eq-abundance_mu_sigma or @eq-abundance_HZ_h and @eq-abundance_mu_h with
+For abundance models, we considered two potential functions for describing the decline in perceptibility of birds with distance from the surveyor: a half-normal model and a hazard model. We preliminarily fitted detection-only versions of these models to the raw distance data (i.e., distances not indexed by sampling unit or year). We used the Watanabe-Akaike Information Criterion (WAIC; Watanabe 2010, Hooten and Hobbs 2015) to select the most parsimonious perceptibility functional form and then retained that function for each species for modeling distance-based perceptibility in the primary analysis. As stated above, we only considered constant perceptibility abundance models. Previously, We also considered constant availability models, but we successfully fitted models allowing variation in availability for all species, so we subsequently dropped the constant availability model from consideration.
 
-$$log(σ) \sim Normal(4.5,1.5)$$ {#eq-constant_sigma}
-
-<center>or</center>
-
-$$log(h) \sim Normal(4.5,1.5),$$ {#eq-constant_h}
-
-respectively. We successfully fitted models allowing variation in availability for all species, so we had no need of a constant availability model, even though we did initially consider it.
-
-For occupancy models, we occasionally failed to achieve convergence when allowing detectability to vary among years and Bird Conservation Regions, in which case we fitted a constant-detectability model. Since detectability for occupancy models is analogous to the availability component in abundance models, the constant-detectability occupancy model replaces the equivalent of @eq-abundance_p_ar, @eq-abundance_mu_par, and @eq-abundance_SD_sigma_h_par with
+For occupancy models, we occasionally failed to achieve convergence when allowing detectability to vary among years and Bird Conservation Regions, in which case we fitted a constant-detectability model. Since detectability for occupancy models is analogous to the availability component in abundance models, the constant-detectability occupancy model replaces the equivalent of @eq-abundance_p_ar, @eq-abundance_mu_par, and @eq-abundance_SD_par with
 
 $$logit(p) \sim Normal(0,1).$$ {#eq-constant_p}
 
@@ -213,6 +195,6 @@ $$logit(p) \sim Normal(0,1).$$ {#eq-constant_p}
 
 We performed all data processing, analysis, and derivation of estimates in R (R Core Team, 2023) and model fitting in Nimble (de Valpine et al. 2017, 2023). All scripts for the annual analysis are maintained in a git repository and available upon request.
 
-The R code automated combining strata-level population and trend estimates to derive superstrata estimates at multiple spatial scales, including quantification of estimation uncertainty. Additionally, we automated periodic checking of convergence and switching to alternative models in cases where more complex models failed to converge within a specified number of attempts.
+The R code automated combining strata-level population and trend estimates to derive superstrata estimates at multiple spatial scales, including quantification of estimation uncertainty. Additionally for occupancy models, we automated periodic checking of convergence and switching to the constant-detectability model in cases where relatively the time- and BCR-varying detectability models failed to converge within a specified number of attempts.
 
-Model fitting with Nimble entailed sampling model parameter space with 2 independent Markov Chain Monte Carlo (MCMC) chains. For each species, the automated process began sampling with chains of length = 10000 iterations, discarding the first 5000 as burn-in and retaining every 50th sample, then checked convergence of chains using the $\hat{R}$ metric and effective sample size using $n_{effective}$ (Gelman et al. 2004). We required $\hat{R}<1.1$ and $n_{effective}\geq 20$, and continued sampling for another 10000 iterations until we either achieved these criteria or reached the maximum number of attempts, with an attempt being 10000 iterations and checks of $\hat{R}$ and $n_{effective}$ occurring after each attempt. We specified 50 max attempts for global abundance and occupancy models and no max for simpler alternatives.
+Model fitting with Nimble entailed sampling model parameter space with 2 independent Markov Chain Monte Carlo (MCMC) chains. For each species, the automated process began sampling with chains of length = 10000 iterations, discarding the first 5000 as burn-in and retaining every 50th sample, then checked convergence of chains using the $\hat{R}$ metric and effective sample size using $n_{effective}$ (Gelman et al. 2004). We required $\hat{R}<1.1$ and $n_{effective}\geq 30$, and continued sampling for another 10000 iterations until we either achieved these criteria or reached the maximum number of attempts, with an attempt being 10000 iterations and checks of $\hat{R}$ and $n_{effective}$ occurring after each attempt. We specified 50 max attempts for occupancy models allowing variability in detectability and no max for constant detectaiblity.
