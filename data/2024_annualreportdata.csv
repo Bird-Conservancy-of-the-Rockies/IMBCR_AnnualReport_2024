@@ -1,4 +1,4 @@
-Stratum,Year,FirstVisit,LastVisit,Strata,States,nBirdSpecies,CompletedGrids,CompletedPoints,nPriority,DensitySpeciesCount,DensityRobustCV,DensityPrioritySpecies,OccupancySpeciesCount,OccupancyRobustCV,OccupancyPrioritySpecies,PlannedGrids,LongStratum,is_superstratum
+stratum,Year,FirstVisit,LastVisit,Strata,States,nBirdSpecies,CompletedGrids,CompletedPoints,nPriority,DensitySpeciesCount,DensityRobustCV,DensityPrioritySpecies,OccupancySpeciesCount,OccupancyRobustCV,OccupancyPrioritySpecies,PlannedGrids,LongStratum,is_superstratum
 BCR17,2024,2024-05-18T06:00:00Z,2024-07-18T06:00:00Z,31,5,210,188,2145,49,230,72,60,230,85,59,193,,TRUE
 CO-BCR10-BLM,2024,2024-06-05T06:00:00Z,2024-06-27T06:00:00Z,3,1,65,14,149,3,76,10,3,77,11,3,14,,TRUE
 CO-BCR16-BLM,2024,2024-05-15T06:00:00Z,2024-07-18T06:00:00Z,10,1,122,74,789,6,131,69,5,130,71,5,75,,TRUE
@@ -209,7 +209,7 @@ SD-BCR17-RG,2024,2024-05-22T06:00:00Z,2024-05-27T06:00:00Z,1,1,37,5,72,9,76,8,0,
 Shoshone National Forest,2024,2024-06-23T06:00:00Z,2024-07-11T06:00:00Z,2,1,85,11,124,6,145,14,7,145,16,7,11,,TRUE
 Tonto National Forest,2024,2024-04-30T06:00:00Z,2024-06-29T06:00:00Z,2,1,96,10,105,15,130,10,19,130,13,19,10,,TRUE
 Uinta-Wasatch-Cache National Forest,2024,2024-06-09T06:00:00Z,2024-07-12T06:00:00Z,5,2,71,12,127,0,125,12,0,125,16,0,13,,TRUE
-USFS-Region 1 National Forests,2024,2024-05-25T06:00:00Z,2024-07-08T06:00:00Z,29,3,173,165,1643,6,200,83,9,200,108,9,162,,TRUE
+USFS-Region 1 National Forests,2024,2024-05-25T06:00:00Z,2024-07-08T06:00:00Z,dat,3,173,165,1643,6,200,83,9,200,108,9,162,,TRUE
 USFS-Region 1 National Grasslands 2013-Present,2024,2024-05-22T06:00:00Z,2024-07-17T06:00:00Z,3,2,78,13,169,3,127,11,5,127,14,5,15,,TRUE
 USFS-Region 2 National Forests,2024,2024-05-22T06:00:00Z,2024-07-18T06:00:00Z,22,4,174,162,1766,15,219,92,23,220,107,23,165,,TRUE
 USFS-Region 2 National Grasslands 2016-Present,2024,2024-05-09T06:00:00Z,2024-06-29T06:00:00Z,8,5,114,38,488,14,181,17,19,183,25,21,38,,TRUE
