@@ -53,7 +53,7 @@ chapters <- headings %>%
 # these will be the names of my individual .qmd files for the book. Update to the correct numbers and names for the current year!
 chapters$name <- c("8-usfs", "9-blm", "10-dod", "11-nps", "12-tribal", 
                    "14-co", "15-ks", "16-mt", "17-ne", "18-nd",
-                   "19-ok", "20-sd", "21-ut", "22-wy", "13-bcr")
+                   "19-ok", "20-sd", "21-tx", "22-ut","23-wy", "13-bcr")
 
 # agencies & broader regions are under heading 1
 for (i in 1:nrow(chapters)) {
