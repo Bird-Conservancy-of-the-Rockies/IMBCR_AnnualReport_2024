@@ -60,7 +60,7 @@ U.S. Forest Service,Region 4,Region 4 National Forests,,,,Payette National Fores
 U.S. Forest Service,Region 4,Region 4 National Forests,,,,Salmon-Challis National Forest,Salmon-Challis National Forest
 U.S. Forest Service,Region 4,Region 4 National Forests,,,,Sawtooth National Forest,Sawtooth National Forest
 U.S. Forest Service,Region 4,Region 4 National Forests,,,,Uinta-Wasatch-Cache National Forest,Uinta-Wasatch-Cache National Forest
-U.S. Forest Service,Region 4,Region 4 National Grasslands,,,Region 4 National Grasslands,Curlew National Grassland,ID-BCR9-CU
+U.S. Forest Service,Region 4,Region 4 National Grasslands,,,,Curlew National Grassland,ID-BCR9-CU
 Bureau of Land Management,BLM California,BLM in California BCR 9,Bureau of Land Management,BLM California,BLM in California BCR 9,Carson City District,CA-BCR9-CC
 Bureau of Land Management,BLM California,BLM in California BCR 9,,,,Northern California District,CA-BCR9-NC
 Bureau of Land Management,BLM Colorado,BLM in Colorado BCR 10,,BLM Colorado,,BLM in Colorado BCR 10,CO-BCR10-BLM
@@ -101,17 +101,17 @@ Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,,,"Elko, Twin Falls, a
 Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,,,Ely District,NV-BCR9-EY
 Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,,,Northern California District,NV-BCR9-NC
 Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,,,Winnemucca District,NV-BCR9-WI
-Bureau of Land Management,BLM North Dakota,BLM in North Dakota BCR 17,,BLM North Dakota,,BLM in North Dakota BCR 17,ND-BCR17-BM
-Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 10,,BLM Oregon,,BLM in Oregon BCR 10,OR-BCR10 BLM
+Bureau of Land Management,BLM North Dakota,BLM in North Dakota BCR 17,,BLM North Dakota,BLM in North Dakota BCR 17,BLM in North Dakota BCR 17,ND-BCR17-BM
+Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 10,,BLM Oregon,BLM Oregon in BCR 10,BLM in Oregon BCR 10,OR-BCR10 BLM
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 10,,,,Burns District: BCR10,OR-BCR10-BU
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 10,,,,Prineville District: BCR10,OR-BCR10-PR
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 10,,,,Vale District: BCR10,OR-BCR10-VA
-Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,BLM in Oregon BCR 9,OR-BCR9 BLM
+Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,BLM Oregon in BCR 9,BLM in Oregon BCR 9,OR-BCR9 BLM
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,Burns District: BCR9,OR-BCR9-BU
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,Lakeview and Medford Districts: BCR9,OR-BCR9-LA
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,Prineville District: BCR9,OR-BCR9-PR
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,Vale District: BCR9,OR-BCR9-VA
-Bureau of Land Management,BLM South Dakota,BLM in South Dakota BCR 17,,BLM South Dakota,,BLM in South Dakota BCR 17,SD-BCR17-BM
+Bureau of Land Management,BLM South Dakota,BLM in South Dakota BCR 17,,BLM South Dakota,BLM in South Dakota BCR 17,BLM in South Dakota BCR 17,SD-BCR17-BM
 Bureau of Land Management,BLM Utah,BLM in Utah BCR 10,,BLM Utah,,BLM in Utah BCR 10,UT-BCR10 BLM
 Bureau of Land Management,BLM Utah,BLM in Utah BCR 16,,,,BLM in Utah BCR 16,UT-BCR16 BLM
 Bureau of Land Management,BLM Utah,BLM in Utah BCR 9,,,,BLM in Utah BCR 9,UT-BCR9 BLM
@@ -141,8 +141,8 @@ Bureau of Land Management,BLM Wyoming,Rawlins Field Office,,,,Rawlins Field Offi
 Bureau of Land Management,BLM Wyoming,Rock Springs Field Office,,,,Rock Springs Field Office,WY-BCR10-RO
 Bureau of Land Management,BLM Wyoming,Worland Field Office,,,,Worland Field Office,WY-BCR10-WO
 Department of Defense,DOD Lands in Colorado,DOD Lands in Colorado BCR 18,Department of Defense,DOD Lands in Colorado,,DOD Lands in Colorado BCR 18,CO-BCR18-DO
-Department of Defense,DOD Lands in Utah,All Other DOD Lands in Utah BCR 9,,,,All Other DOD Lands in Utah BCR 9,UT-BCR9-DD
-Department of Defense,DOD Lands in Utah,DOD Lands in Utah BCR 9,,DOD Lands in Utah,,DOD Lands in Utah BCR 9,UT-BCR9 Department of Defense lands
+Department of Defense,DOD Lands in Utah,All Other DOD Lands in Utah BCR 9,,DOD Lands in Utah,,All Other DOD Lands in Utah BCR 9,UT-BCR9-DD
+Department of Defense,DOD Lands in Utah,DOD Lands in Utah BCR 9,,,,DOD Lands in Utah BCR 9,UT-BCR9 Department of Defense lands
 Department of Defense,DOD Lands in Utah,DOD Lands in Utah BCR 9 – APG Impact Areas,,,,DOD Lands in Utah BCR 9 - APG Impact Areas,UT-BCR9-AP
 Department of Defense,DOD Lands in Utah,DOD Lands in Utah BCR 9 - Mudflats,,,,DOD Lands in Utah BCR 9 - Mudflats,UT-BCR9-MU
 Department of Defense,DOD Lands in Utah,DOD Lands in Utah BCR 9 – Target S Impact Areas,,,,DOD Lands in Utah BCR 9 - Target S Impact Areas,UT-BCR9-TS
@@ -154,10 +154,10 @@ National Park Service,Greater Yellowstone Network,Bighorn Canyon National Recrea
 National Park Service,Greater Yellowstone Network,Grand Teton National Park,,,,Grand Teton National Park,WY-BCR10-GR
 National Park Service,Greater Yellowstone Network,Yellowstone National Park,,,,Yellowstone National Park,WY-BCR10-YE
 National Park Service,Northern Colorado Plateau Network,Northern Colorado Plateau Network in Colorado,,Northern Colorado Plateau Network,,Northern Colorado Plateau Network in Colorado,CO-BCR16-NC
-National Park Service,Northern Great Plains Network,Agate Fossil Beds National Monument,,,,Agate Fossil Beds National Monument,NE-BCR18-AF
+National Park Service,Northern Great Plains Network,Agate Fossil Beds National Monument,,Northern Great Plains Network,,Agate Fossil Beds National Monument,NE-BCR18-AF
 National Park Service,Northern Great Plains Network,Badlands National Park - North Unit,,,,Badlands National Park - North Unit,SD-BCR17-BN
 National Park Service,Northern Great Plains Network,Jewel Cave National Monument,,,,Jewel Cave National Monument,SD-BCR17-JC
-National Park Service,Northern Great Plains Network,Knife River Indian Villages National Historic Site,,Northern Great Plains Network,,Knife River Indian Villages National Historic Site,ND-BCR17-KR
+National Park Service,Northern Great Plains Network,Knife River Indian Villages National Historic Site,,,,Knife River Indian Villages National Historic Site,ND-BCR17-KR
 National Park Service,Northern Great Plains Network,Mount Rushmore National Monument,,,,Mount Rushmore National Monument,SD-BCR17-MR
 National Park Service,Northern Great Plains Network,Scotts Bluff National Monument,,,,Scotts Bluff National Monument,NE-BCR18-SB
 National Park Service,Northern Great Plains Network,Theodore Roosevelt National Park,,,,Theodore Roosevelt National Park,Theodore Roosevelt National Park
