@@ -30,11 +30,6 @@ data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
 
 # Utah 
 
-In 2024, we had complete survey coverage across the state of Utah (@fig-ut).
-
-![Survey locations and strata in Utah, 2024.](figures/UT_Report_2024.png){#fig-ut}
-
-
 ## Utah Statewide: Total 
 
 

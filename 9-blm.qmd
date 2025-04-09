@@ -2900,7 +2900,8 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 
 ## BLM North Dakota 
 
-
+### BLM in North Dakota BCR 17 
+ 
 ```{r, echo = FALSE, message = FALSE}
 # This script should not need to be updated year to year!
 
@@ -2973,7 +2974,8 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 
 ## BLM Oregon 
 
-
+### BLM Oregon in BCR 10 
+ 
 ```{r, echo = FALSE, message = FALSE}
 # This script should not need to be updated year to year!
 
@@ -3252,7 +3254,8 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 
 
 
-
+### BLM Oregon in BCR 9 
+ 
 ```{r, echo = FALSE, message = FALSE}
 # This script should not need to be updated year to year!
 
@@ -3601,7 +3604,8 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 
 ## BLM South Dakota 
 
-
+### BLM in South Dakota BCR 17 
+ 
 ```{r, echo = FALSE, message = FALSE}
 # This script should not need to be updated year to year!
 

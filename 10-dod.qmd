@@ -103,6 +103,7 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 :::
 
 
+## DOD Lands in Utah 
 
 
 ```{r, echo = FALSE, message = FALSE}
@@ -175,7 +176,6 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 :::
 
 
-## DOD Lands in Utah 
 
 
 ```{r, echo = FALSE, message = FALSE}

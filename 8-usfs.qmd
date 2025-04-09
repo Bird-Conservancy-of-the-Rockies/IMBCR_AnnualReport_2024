@@ -4271,8 +4271,7 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 
 
 
-### Region 4 National Grasslands 
- 
+
 ```{r, echo = FALSE, message = FALSE}
 # This script should not need to be updated year to year!
 
