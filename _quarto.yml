@@ -38,15 +38,15 @@ book:
         - 23-wy.qmd
     - part: "Discussion"
       chapters:
-        - 23-applications.qmd
-        - 24-special-feature.qmd
-        - 25-conclusion.qmd
-    - 26-references.qmd
+        - 24-applications.qmd
+        - 25-special-feature.qmd
+        - 26-conclusion.qmd
+    - 27-references.qmd
   appendices: 
-    - 27-rmadc.qmd
-    - 28-history.qmd
-    - 29-protocol-changes.qmd
-    - 30-analysis.qmd
+    - 28-rmadc.qmd
+    - 29-history.qmd
+    - 30-protocol-changes.qmd
+    - 31-analysis.qmd
    # - 31-priority-species.qmd
         
 
