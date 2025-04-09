@@ -4,13 +4,13 @@ format:
     toc: true
     toc-depth: 4
 ---
-```{r echo = FALSE, message = FALSE}
+```{r echo = FALSE, warning = FALSE}
 
 library(tidyverse)
 library(xfun) # numbers_to_words function
 library(lubridate)
 
-# update year
+
 year <- 2024
 
 data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
@@ -29,10 +29,6 @@ data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
 ```
 
 # Utah 
-
-In 2024, we had complete survey coverage across the state of Utah (@fig-ut).
-
-![Survey locations and strata in Utah, 2024.](figures/UT_Report_2024.png){#fig-ut}
 
 ## Utah Statewide: Total 
 

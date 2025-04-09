@@ -4,13 +4,13 @@ format:
     toc: true
     toc-depth: 4
 ---
-```{r echo = FALSE, message = FALSE}
+```{r echo = FALSE, warning = FALSE}
 
 library(tidyverse)
 library(xfun) # numbers_to_words function
 library(lubridate)
 
-# update year
+
 year <- 2024
 
 data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
@@ -29,11 +29,6 @@ data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
 ```
 
 # Montana 
-
-In 2024, we had complete survey coverage across the state of Montana (@fig-mt).
-
-
-![Survey locations and strata in Montana, 2024.](figures/MT_Report_2024.png){#fig-mt}
 
 ## Montana Statewide: Total 
 
