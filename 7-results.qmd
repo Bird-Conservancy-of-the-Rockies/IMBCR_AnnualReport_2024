@@ -8,7 +8,7 @@ title: "Summary"
 engine: r
 ---
 
-```{r, echo = FALSE, warning=FALSE}
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(quarto)
 
@@ -46,7 +46,7 @@ This change means that the number of species with density or occupancy estimates
 
 ### Planned and completed strata
 
-```{r planned-completed, echo = F, message = F}
+```{r planned-completed, echo = F, message = F, warning = FALSE}
 #| column: page-right
 #| label: tbl-planned-completed
 #| tbl-cap: "Planned and completed surveys by strata, 2024"

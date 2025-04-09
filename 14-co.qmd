@@ -4,7 +4,7 @@ format:
     toc: true
     toc-depth: 4
 ---
-```{r echo = FALSE, warning = FALSE}
+```{r echo = FALSE, warning = FALSE, message=FALSE}
 
 library(tidyverse)
 library(xfun) # numbers_to_words function
@@ -28,7 +28,11 @@ data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
 
 ```
 
-# Colorado 
+# Colorado
+
+In 2024, we had complete survey coverage across the state of Colorado (@fig-co).
+
+![Survey locations and strata in Colorado, 2024.](figures/CO_Report_2024.png){#fig-co}
 
 ## Colorado Statewide: Total 
 

@@ -4,7 +4,7 @@ format:
     toc: true
     toc-depth: 4
 ---
-```{r echo = FALSE, warning = FALSE}
+```{r echo = FALSE, warning = FALSE, message = FALSE}
 
 library(tidyverse)
 library(xfun) # numbers_to_words function
@@ -28,7 +28,11 @@ data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
 
 ```
 
-# Bird Conservation Regions 
+# Bird Conservation Region 
+
+In 2024, we had complete survey coverage across one Bird Conservation Region (@fig-bcr-17).
+
+![Survey locations and strata in the Badlands and Prairies Bird Conservation Region (BCR 17), 2024](figures/BCR17_Report_2024.png){#fig-bcr-17}
 
 
 

@@ -4,7 +4,7 @@ format:
     toc: true
     toc-depth: 4
 ---
-```{r echo = FALSE, warning = FALSE}
+```{r echo = FALSE, warning = FALSE, message = FALSE}
 
 library(tidyverse)
 library(xfun) # numbers_to_words function
@@ -29,6 +29,10 @@ data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
 ```
 
 # Wyoming 
+
+In 2024, we had complete survey coverage across the state of Wyoming (@fig-wy).
+
+![Survey locations and strata in Wyoming, 2024](figures/WY_Report_2024.png){#fig-wy}
 
 ## Wyoming Statewide: Total 
 
