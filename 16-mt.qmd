@@ -35,7 +35,6 @@ In 2024, we had complete survey coverage across the state of Montana (@fig-mt).
 
 ![Survey locations and strata in Montana, 2024.](figures/MT_Report_2024.png){#fig-mt}
 
-
 ## Montana Statewide: Total 
 
 

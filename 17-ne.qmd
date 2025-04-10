@@ -10,7 +10,6 @@ library(tidyverse)
 library(xfun) # numbers_to_words function
 library(lubridate)
 
-
 year <- 2024
 
 data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
