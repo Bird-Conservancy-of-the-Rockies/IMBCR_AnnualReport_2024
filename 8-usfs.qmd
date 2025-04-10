@@ -108,6 +108,8 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 
 ```{r, echo = FALSE, message = FALSE}
 
+# This script should not need to be updated year to year!
+
 # Beaverhead-Deerlodge National Forest is a special value from the heddlr_loop.qmd file
 x <- which(data$stratum == "Beaverhead-Deerlodge National Forest")
 
