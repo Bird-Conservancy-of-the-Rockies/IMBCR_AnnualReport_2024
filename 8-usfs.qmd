@@ -4,13 +4,13 @@ format:
     toc: true
     toc-depth: 4
 ---
-```{r echo = FALSE, warning = FALSE, message =FALSE}
+```{r echo = FALSE, message = FALSE}
 
 library(tidyverse)
 library(xfun) # numbers_to_words function
 library(lubridate)
 
-
+# update year
 year <- 2024
 
 data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
@@ -107,7 +107,6 @@ On the Explore the Data tab, select **`r super_stratum`** from the **`r type`** 
 
 
 ```{r, echo = FALSE, message = FALSE}
-
 # This script should not need to be updated year to year!
 
 # Beaverhead-Deerlodge National Forest is a special value from the heddlr_loop.qmd file
