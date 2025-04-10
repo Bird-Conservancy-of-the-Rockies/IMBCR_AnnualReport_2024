@@ -10,7 +10,7 @@ library(tidyverse)
 library(xfun) # numbers_to_words function
 library(lubridate)
 
-# update year
+
 year <- 2024
 
 data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
@@ -33,7 +33,6 @@ data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
 In 2024, we had complete survey coverage across one Bird Conservation Region (@fig-bcr-17).
 
 ![Survey locations and strata in the Badlands and Prairies Bird Conservation Region (BCR 17), 2024](figures/BCR17_Report_2024.png){#fig-bcr-17}
-
 
 ```{r, echo = FALSE, message = FALSE}
 # This script should not need to be updated year to year!

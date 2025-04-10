@@ -4,13 +4,13 @@ format:
     toc: true
     toc-depth: 4
 ---
-```{r echo = FALSE, message = FALSE}
+```{r echo = FALSE, message = FALSE, warning = FALSE}
 
 library(tidyverse)
 library(xfun) # numbers_to_words function
 library(lubridate)
 
-# update year
+
 year <- 2024
 
 data <- read.csv(paste0("data/", year, "_annualreportdata.csv"))
