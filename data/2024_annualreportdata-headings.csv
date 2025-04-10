@@ -63,9 +63,9 @@ U.S. Forest Service,Region 4,Region 4 National Forests,,,,Uinta-Wasatch-Cache Na
 U.S. Forest Service,Region 4,Region 4 National Grasslands,,,,Curlew National Grassland,ID-BCR9-CU
 Bureau of Land Management,BLM California,BLM in California BCR 9,Bureau of Land Management,BLM California,BLM in California BCR 9,Carson City District,CA-BCR9-CC
 Bureau of Land Management,BLM California,BLM in California BCR 9,,,,Northern California District,CA-BCR9-NC
-Bureau of Land Management,BLM Colorado,BLM in Colorado BCR 10,,BLM Colorado,,BLM in Colorado BCR 10,CO-BCR10-BLM
+,,,,BLM Colorado,,BLM in Colorado: Total,CO-BLM
+Bureau of Land Management,BLM Colorado,BLM in Colorado BCR 10,,,,BLM in Colorado BCR 10,CO-BCR10-BLM
 Bureau of Land Management,BLM Colorado,BLM in Colorado BCR 16,,,,BLM in Colorado BCR 16,CO-BCR16-BLM
-Bureau of Land Management,BLM Colorado,BLM in Colorado: Total,,,,BLM in Colorado: Total,CO-BLM
 Bureau of Land Management,BLM Colorado,Colorado River Valley Field Office,,,,Colorado River Valley Field Office,CO-BCR16-CR
 Bureau of Land Management,BLM Colorado,Grand Junction Field Office,,,,Grand Junction Field Office,CO-BCR16-GJ
 Bureau of Land Management,BLM Colorado,Gunnison Field Office,,,,Gunnison Field Office,CO-BCR16-GU
@@ -76,9 +76,9 @@ Bureau of Land Management,BLM Colorado,San Luis Valley Field Office,,,,San Luis 
 Bureau of Land Management,BLM Colorado,Tres Rios Field Office,,,,Tres Rios Field Office,CO-BCR16-TR
 Bureau of Land Management,BLM Colorado,Uncompahgre Field Office,,,,Uncompahgre Field Office,CO-BCR16-UN
 Bureau of Land Management,BLM Colorado,White River Field Office,,,,White River Field Office,CO-BLM - White River Field Office
-Bureau of Land Management,BLM Idaho,BLM in Idaho BCR 10,,BLM Idaho,,BLM in Idaho BCR 10,ID-BCR10-BLM
+,,,,BLM Idaho,,BLM in Idaho: Total,ID-BLM
+Bureau of Land Management,BLM Idaho,BLM in Idaho BCR 10,,,,BLM in Idaho BCR 10,ID-BCR10-BLM
 Bureau of Land Management,BLM Idaho,BLM in Idaho BCR 9,,,,BLM in Idaho BCR 9,ID-BCR9-BLM
-Bureau of Land Management,BLM Idaho,BLM in Idaho: Total,,,,BLM in Idaho: Total,ID-BLM
 Bureau of Land Management,BLM Idaho,Bruneau Field Office,,,,Bruneau Field Office,ID-BCR9-BR
 Bureau of Land Management,BLM Idaho,Burley Field Office,,,,Burley Field Office,ID-BCR9-BU
 Bureau of Land Management,BLM Idaho,Challis Field Office,,,,Challis Field Office,ID-BLM - Challis Field Office
@@ -91,11 +91,11 @@ Bureau of Land Management,BLM Idaho,Pocatello Field Office,,,,Pocatello Field Of
 Bureau of Land Management,BLM Idaho,Salmon Field Office,,,,Salmon Field Office,ID-BLM - Salmon Field Office
 Bureau of Land Management,BLM Idaho,Shoshone Field Office,,,,Shoshone Field Office,ID-BLM - Shoshone Field Office
 Bureau of Land Management,BLM Idaho,Upper Snake Field Office,,,,Upper Snake Field Office,ID-BLM - Upper Snake Field Office
-Bureau of Land Management,BLM Montana,BLM in Montana BCR 10,,BLM Montana,,BLM in Montana BCR 10,MT-BCR10-BLM
+,,,,BLM Montana,,BLM in Montana: Total,MT-BLM
+Bureau of Land Management,BLM Montana,BLM in Montana BCR 10,,,,BLM in Montana BCR 10,MT-BCR10-BLM
 Bureau of Land Management,BLM Montana,BLM in Montana BCR 11,,,,BLM in Montana BCR 11,MT-BCR11-BLM
 Bureau of Land Management,BLM Montana,BLM in Montana BCR 17,,,,BLM in Montana BCR 17,MT-BCR17-BL
-Bureau of Land Management,BLM Montana,BLM in Montana: Total,,,,BLM in Montana: Total,MT-BLM
-Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,BLM Nevada,,Battle Mountain District,NV-BCR9-BM
+Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,BLM Nevada,BLM in Nevada BCR 9,Battle Mountain District,NV-BCR9-BM
 Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,,,Carson City District,NV-BCR9-CC
 Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,,,"Elko, Twin Falls, and Boise Districts",NV-BCR9-EK
 Bureau of Land Management,BLM Nevada,BLM in Nevada BCR 9,,,,Ely District,NV-BCR9-EY
@@ -112,10 +112,10 @@ Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,Lakeview and Medford
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,Prineville District: BCR9,OR-BCR9-PR
 Bureau of Land Management,BLM Oregon,BLM Oregon in BCR 9,,,,Vale District: BCR9,OR-BCR9-VA
 Bureau of Land Management,BLM South Dakota,BLM in South Dakota BCR 17,,BLM South Dakota,BLM in South Dakota BCR 17,BLM in South Dakota BCR 17,SD-BCR17-BM
-Bureau of Land Management,BLM Utah,BLM in Utah BCR 10,,BLM Utah,,BLM in Utah BCR 10,UT-BCR10 BLM
+,,,,BLM Utah,,BLM in Utah: Total,UT-BLM
+Bureau of Land Management,BLM Utah,BLM in Utah BCR 10,,,,BLM in Utah BCR 10,UT-BCR10 BLM
 Bureau of Land Management,BLM Utah,BLM in Utah BCR 16,,,,BLM in Utah BCR 16,UT-BCR16 BLM
 Bureau of Land Management,BLM Utah,BLM in Utah BCR 9,,,,BLM in Utah BCR 9,UT-BCR9 BLM
-Bureau of Land Management,BLM Utah,BLM in Utah: Total,,,,BLM in Utah: Total,UT-BLM
 Bureau of Land Management,BLM Utah,Cedar City Field Office,,,,Cedar City Field Office,UT-BLM - Cedar City Field Office
 Bureau of Land Management,BLM Utah,Fillmore Field Office,,,,Fillmore Field Office,UT-BLM - Fillmore Field Office
 Bureau of Land Management,BLM Utah,Grand Staircase-Escalante National Monument,,,,Grand Staircase-Escalante National Monument,UT-BCR16-GS
@@ -127,12 +127,12 @@ Bureau of Land Management,BLM Utah,Richfield Field Office,,,,Richfield Field Off
 Bureau of Land Management,BLM Utah,Saint George Field Office,,,,Saint George Field Office,UT-BLM - Saint George Field Office
 Bureau of Land Management,BLM Utah,Salt Lake Field Office,,,,Salt Lake Field Office,UT-BLM - Salt Lake Field Office
 Bureau of Land Management,BLM Utah,Vernal Field Office,,,,Vernal Field Office,UT-BLM - Vernal Field Office
+,,,,BLM Wyoming,,BLM in Wyoming: Total,WY-BLM
 Bureau of Land Management,BLM Wyoming,BLM in Wyoming BCR 16,,,,BLM in Wyoming BCR 16,WY-BCR16-BL
 Bureau of Land Management,BLM Wyoming,BLM in Wyoming BCR 18,,,,BLM in Wyoming BCR 18,WY-BCR18-BL
-Bureau of Land Management,BLM Wyoming,BLM in Wyoming: Total,,,,BLM in Wyoming: Total,WY-BLM
 Bureau of Land Management,BLM Wyoming,Buffalo Field Office,,,,Buffalo Field Office,WY-BLM-Buffalo
 Bureau of Land Management,BLM Wyoming,Casper Field Office,,,,Casper Field Office,WY-BLM-Casper
-Bureau of Land Management,BLM Wyoming,Cody Field Office,,BLM Wyoming,,Cody Field Office,WY-BCR10-CO
+Bureau of Land Management,BLM Wyoming,Cody Field Office,,,,Cody Field Office,WY-BCR10-CO
 Bureau of Land Management,BLM Wyoming,Kemmerer Field Office,,,,Kemmerer Field Office,WY-BCR10-KE
 Bureau of Land Management,BLM Wyoming,Lander Field Office,,,,Lander Field Office,WY-BCR10-LA
 Bureau of Land Management,BLM Wyoming,Newcastle Field Office,,,,Newcastle Field Office,WY-BCR17-NE
