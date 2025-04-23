@@ -33,6 +33,8 @@ Table and figure numbers begin with their respective chapter numbers.
 
 @fig-wy Survey locations and strata in Wyoming, 2024.
 
+@fig-trends USFS units with increasing Evening Grosbeak trends in blue, decreasing trends in red, and the Evening Grosbeak breeding range shown in yellow.
+
 
 
 
