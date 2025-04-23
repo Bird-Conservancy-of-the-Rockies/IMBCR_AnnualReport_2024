@@ -1,4 +1,4 @@
-```{r, echo = FALSE, message = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 # This script should not need to be updated year to year!
 
 # STRATUM_NAME is a special value from the heddlr_loop.qmd file
